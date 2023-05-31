@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>МедРумСервис</title>
+  <link rel="preload" href="fonts/LatoMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/LatoBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container flex">
+    <a class="header__logo">
+      <img loading="lazy" src="./img/logo.svg" class="logo" width="103" height="57" alt="Логотип МедРумСервис">
+    </a>
+    <a href="tel:+79875594499" class="header__link">+7 987 559-44-99</a>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container">
+    <h1 class="hero__title">Быстрые и надёжные поставщики для государственных организаций</h1>
+    <a href="rusprofile.ru" class="hero__link">
+      Изучите наш опыт на сайте rusprofile.ru
+    </a>
+  </div>
+</section>
+
+      <section class="products">
+  <div class="container">
+    <h2 class="products__title">Ассортимент</h2>
+    <ul class="list-reset products__list">
+      <li class="products__item">
+        <picture>
+          <source srcset="./img/product/product-1.webp" type="image/webp">
+          <img loading="lazy" src="./img/product/product-1.jpg" class="products__image" width="300" height="221" alt="Мебель больничная">
+        </picture>
+        <div class="products__list-descr">
+          <h3 class="products__list-title">Мебель больничная</h3>
+        </div>
+        <a href="#" class="products__list-link" download>Скачать прайс</a>
+      </li>
+      <li class="products__item">
+        <picture>
+          <source srcset="./img/product/product-2.webp" type="image/webp">
+          <img loading="lazy" src="./img/product/product-2.jpg" class="products__image" width="300" height="221" alt="Мебель для стамотологии">
+        </picture>
+        <div class="products__list-descr">
+          <h3 class="products__list-title">Мебель для стамотологии</h3>
+        </div>
+        <a href="#" class="products__list-link" download>Скачать прайс</a>
+      </li>
+      <li class="products__item">
+        <picture>
+          <source srcset="./img/product/product-3.webp" type="image/webp">
+          <img loading="lazy" src="./img/product/product-3.jpg" class="products__image" width="300" height="221" alt="Медицинское оборудование">
+        </picture>
+        <div class="products__list-descr">
+          <h3 class="products__list-title">Медицинское оборудование</h3>
+        </div>
+        <a href="#" class="products__list-link" download>Скачать прайс</a>
+      </li>
+      <li class="products__item">
+        <picture>
+          <source srcset="./img/product/product-4.webp" type="image/webp">
+          <img loading="lazy" src="./img/product/product-4.jpg" class="products__image" width="300" height="221" alt="Оборудование для стамотологии">
+        </picture>
+        <div class="products__list-descr">
+          <h3 class="products__list-title">Оборудование для стамотологии</h3>
+        </div>
+        <a href="#" class="products__list-link" download>Скачать прайс</a>
+      </li>
+      <li class="products__item">
+        <picture>
+          <source srcset="./img/product/product-5.webp" type="image/webp">
+          <img loading="lazy" src="./img/product/product-5.jpg" class="products__image" width="300" height="221" alt="Оборудование для гистологии">
+        </picture>
+        <div class="products__list-descr">
+          <h3 class="products__list-title">Оборудование для гистологии</h3>
+        </div>
+        <a href="#" class="products__list-link" download>Скачать прайс</a>
+      </li>
+      <li class="products__item">
+        <picture>
+          <source srcset="./img/product/product-6.webp" type="image/webp">
+          <img loading="lazy" src="./img/product/product-6.jpg" class="products__image" width="300" height="221" alt="Оборудование для реанимации">
+        </picture>
+        <div class="products__list-descr">
+          <h3 class="products__list-title">Оборудование для реанимации</h3>
+        </div>
+        <a href="#" class="products__list-link" download>Скачать прайс</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="benefits">
+  <div class="container">
+    <h2 class="benefits__title">Наши преимущества</h2>
+    <ul class="list-reset benefits__list">
+      <li class="benefits__item">
+        <h3 class="benefits__item-title">Контроль качества</h3>
+        <span class="benefits__item-text">Система внутреннего контроля качества отгрузок на входе к нам на склад и перед отгрузкой покупателю</span>
+      </li>
+      <li class="benefits__item">
+        <h3 class="benefits__item-title">Лучшие позиции</h3>
+        <span class="benefits__item-text">Отделы закупок и логистики позволяют в течение суток найти лучшие предложеня.</span>
+      </li>
+      <li class="benefits__item">
+        <h3 class="benefits__item-title">Помощь врачам</h3>
+        <span class="benefits__item-text">Благотворительная помощь для врачей в «красной COVID-зоне»</span>
+      </li>
+      <li class="benefits__item">
+        <h3 class="benefits__item-title">Выгодные цены</h3>
+        <span class="benefits__item-text">Скажите по какой цене нужна поставка и мы сделаем</span>
+      </li>
+      <li class="benefits__item">
+        <h3 class="benefits__item-title">Дефицитные позиции</h3>
+        <span class="benefits__item-text">Мы поставляем в том числе «сложные» дефицитные позиции</span>
+      </li>
+      <li class="benefits__item">
+        <h3 class="benefits__item-title">Нацпроекты</h3>
+        <span class="benefits__item-text">Контрактные поставки по национальным проектам</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="office">
+  <div class="container">
+    <h2 class="office__title">Наш офис</h2>
+    <div class="office-slider">
+      <button class="btn-reset office-slider__btn office-slider__prev">
+        <svg>
+          <use xlink:href="img/sprite.svg#arr-l"></use>
+        </svg>
+      </button>
+      <button class="btn-reset office-slider__btn office-slider__next">
+        <svg>
+          <use xlink:href="img/sprite.svg#arr-r"></use>
+        </svg>
+      </button>
+      <div class="swiper office-slider__wrap">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="office-slider__img">
+              <picture>
+                <source srcset="./img/office.webp" type="image/webp">
+                <img loading="lazy" src="./img/office.png" class="image" width="300" height="300" alt="Картинка офиса">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="office-slider__img">
+              <picture>
+                <source srcset="./img/office.webp" type="image/webp">
+                <img loading="lazy" src="./img/office.png" class="image" width="300" height="300" alt="Картинка офиса">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="office-slider__img">
+              <picture>
+                <source srcset="./img/office.webp" type="image/webp">
+                <img loading="lazy" src="./img/office.png" class="image" width="300" height="300" alt="Картинка офиса">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="office-slider__img">
+              <picture>
+                <source srcset="./img/office.webp" type="image/webp">
+                <img loading="lazy" src="./img/office.png" class="image" width="300" height="300" alt="Картинка офиса">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="office-slider__img">
+              <picture>
+                <source srcset="./img/office.webp" type="image/webp">
+                <img loading="lazy" src="./img/office.png" class="image" width="300" height="300" alt="Картинка офиса">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-scrollbar office-slider__scrollbar"></div>
+    </div>
+  </div>
+</section>
+
+      <section class="contact">
+  <div class="container flex contact__container">
+    <div class="contact__wrap">
+      <h2 class="contact__title">Контакты</h2>
+      <div class="contact__content">
+        <div class="contact__descr">
+          <address class="contact__text">г. Нижний Новгород, ул. Советская, 18б</address>
+          <div class="contact__tel">
+            <a href="tel:+79875594499" class="contact__text">тел. +7 987 559-44-99, </a>
+            <a href="tel:+79200020903" class="contact__text"> +7 920 002-09-03</a>
+          </div>
+          <a href="mailto:medrumsrvice@yandex.ru" class="contact__text">Email: medrumsrvice@yandex.ru</a>
+        </div>
+        <div class="contact__descr">
+          <span class="contact__text">График работы:</span>
+          <span class="contact__text">пн.–пт. с 9:00 до 18:00</span>
+          <span class="contact__text">суббота, воскресенье — выходные</span>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <div id="map" style="width: 740px; height: 565px"></div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer__top">
+    <div class="container footer__top-grid">
+      <div class="footer__descr">
+        <span class="footer__text">ИП Румянцев Владимир Николаечич</span>
+        <span class="footer__text">ИНН 526201439500 ОГРНИП 318527500110790</span>
+      </div>
+      <a class="footer__logo">
+        <img loading="lazy" src="./img/logo.svg" class="logo" width="108" height="60" alt="Логотип МедРумСервис">
+      </a>
+    </div>
+  </div>
+
+  <div class="footer__copy">
+    <div class="container footer__copy-flex">
+      <span class="footer__text-min">© Copyright 2023</span>
+      <a href="#" class="footer__text-min" target="_blank">Политика конфиденциальности</a>
+      <span class="footer__text-min">Предложения на сайте не являются публичной офертой</span>
+      <a href="https://www.artix.pw/" class="footer__text-min footer__text--artix" target="_blank">Разработка
+        сайтов</a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
