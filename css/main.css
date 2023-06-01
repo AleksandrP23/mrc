@@ -347,9 +347,9 @@ a {
   }
 }
 .products__list-descr {
-  position: absolute;
-  bottom: 56px;
   margin: 0;
+  margin-top: -25px;
+  margin-bottom: 10px;
   border-radius: 0 0 5px 5px;
   padding: 20px;
   width: 100%;
@@ -373,7 +373,6 @@ a {
 }
 .products__list-link {
   display: inline-block;
-  margin-top: 45px;
   margin-right: auto;
   margin-left: auto;
   border-radius: 5px;
@@ -385,16 +384,17 @@ a {
   line-height: 100%;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #f9fcff;
-  background: -o-linear-gradient(1.27deg, #2e7cc2 6.28%, #7555a7 48.66%, #c02b8a 93.77%);
-  background: linear-gradient(88.73deg, #2e7cc2 6.28%, #7555a7 48.66%, #c02b8a 93.77%);
+  color: var(--light-color);
+  background: -webkit-gradient(linear, left top, right top, color-stop(6.28%, #2e7cc2), color-stop(48.66%, #c02b8a), color-stop(93.77%, #2e7cc2));
+  background: -o-linear-gradient(left, #2e7cc2 6.28%, #c02b8a 48.66%, #2e7cc2 93.77%);
+  background: linear-gradient(to right, #2e7cc2 6.28%, #c02b8a 48.66%, #2e7cc2 93.77%);
+  background-size: 200%;
   -webkit-transition: background 0.3s ease-in-out;
   -o-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 .products__list-link:hover {
-  background: -o-linear-gradient(5.28deg, #c02b8a 5.4%, #2e7cc2 101.34%);
-  background: linear-gradient(84.72deg, #c02b8a 5.4%, #2e7cc2 101.34%);
+  background-position: right;
 }
 .products__list {
   display: -ms-grid;
